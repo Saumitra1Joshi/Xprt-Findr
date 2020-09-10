@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+
+.logo{
+    color: cyan;
+}
+.list-group-item{
+    background-color: rgb(37, 36, 36);
+    color: white;
+}
+
+.navbar-brand{
+    color: cyan;
+}
+
+.quesbanner{
+    color: cyan;
+}

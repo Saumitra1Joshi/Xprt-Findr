@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<title> XprtFindr </title>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="css/mainnew.css" />
+   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+   <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ </head>
+
+ <div class="navbar">
+  <a href="/login" style = 'font-size:30px'><i class="fa fa-sign-in" aria-hidden="true" style='font-size:30px'></i></i> Login</a>
+  <a href="/register" style='font-size:30px'><i class="fa fa-id-card-o" style='font-size:30px'></i> Register </a>
+  <a href="/contact" style='font-size:30px'><i class="fa fa-fw fa-envelope" style='font-size:30px'></i> Contact</a>
+</div>
+
+<body>
+
+<div id="jumbotron">
+<div class="bg1">
+  <br><br><br><br>
+  <div>
+
+      <a href="#">  <h1 class="heading1" onclick="typeWriter()"> X      F </h1></a>
+
+  <h2 id="demo"></h2>
+  <script>
+var i = 0;
+var txt = 'Xprt Findr';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+
+</div>
+<div id="Transition">
+  <a href="#scroll1"><i class='fas fa-angle-double-down'  style='font-size:36px;color: white'></i></a>
+</div>
+</div>
+
+</div>
+<div id="scroll1">
+<div id="jumbotron" class="bg2">
+  <h1 class="heading2"> About Us </h1><br>
+  <p id="text1"> We are a team of 3 students trying to bring about positive change in the world<br> by taking up new challenges and working on them one at a time </p>
+<br><br><br><br>
+
+  <h1 class="heading2"> Our Vision</h1>
+  <br>
+  <p id="text1">We aim to facilitate the interaction between those who want to learn<br>and those who want to teach.
+  <br> Our goal is to cut out middle-men from education industry and to make education a <br> commodity accessible to all and to
+  reduce the <br> capitalistic values of today's world in the education industry</p>
+</div>
+</div>
+
+</body>
+</html>

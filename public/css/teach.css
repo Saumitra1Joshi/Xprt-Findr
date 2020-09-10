@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+
+.logo{
+    color: cyan;
+}
+
+.list-group-item{
+    background-color: rgb(37, 36, 36);
+    color: white;
+}
+
+.teach{
+    margin-left: 25px;
+}

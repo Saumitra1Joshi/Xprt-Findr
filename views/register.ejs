@@ -1,0 +1,110 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="css" href="css/loginandregister.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+</head>
+
+<body>
+    <div class="brand">
+            <a href="/" class="brand">Xprt Findr</a>
+    </div>
+    <div id="contain-login">
+        <div id="title">
+            <i class="material-icons lock">lock</i> Register
+        </div>
+
+        <form action="/reg" method="POST">
+            <div class="input">
+                <div class="input-ext">
+                    <i class="material-icons">face</i>
+                </div>
+                <input id="name" placeholder="Name" type="text" name="name" required class="validate" autocomplete="off">
+            </div>
+            
+            <div class="input">
+                <div class="input-ext">
+                    <i class="material-icons">email</i>
+                </div>
+                <input id="email" placeholder="Email" type="email" name="email" required>
+            </div>
+
+            <div class="input">
+                <div class="input-ext">
+                    <span class="material-icons">account_circle</span>
+                </div>
+                <input id="username" placeholder="Username" type="text" name="username" required class="validate" autocomplete="off">
+            </div>
+
+            <div class="input">
+                <div class="input-ext">
+                    <span class="material-icons">phone</span>
+                </div>
+                <input id="phonenumber" placeholder="Phone Number" type="text" name="phonenumber" required class="validate" autocomplete="off">
+            </div>
+
+            <div class="input">
+                <div class="input-ext">
+                    <i class="material-icons">vpn_key</i>
+                </div>
+                <input id="password" placeholder="Password" name="password" type="password" required class="validate" autocomplete="off">
+            </div>
+
+            <div class="input">
+                <div class="input-ext">
+                    <span class="material-icons">location_city</span>
+                </div>
+                <input id="college" placeholder="College" type="text" name="college" required class="validate" autocomplete="off">
+            </div>
+
+            <div class="input">
+                <div class="input-ext">
+                    <span class="material-icons">local_library</span>
+                </div>
+                <input id="degree" placeholder="Degree" type="text" name="degree" required class="validate" autocomplete="off">
+            </div>
+
+            <div class="input">
+                <div class="input-ext">
+                    <span class="material-icons">menu_book</span>
+                </div>
+                <input id="branch" placeholder="Branch" type="text" name="branch" required class="validate" autocomplete="off">
+            </div>
+
+            <div class="input">
+                <div class="input-ext">
+                    <span class="material-icons">arrow_forward</span>
+                </div>
+                <input id="year" placeholder="Year" type="text" name="year" required class="validate" autocomplete="off">
+            </div>
+
+            <div class="input">
+                <div class="input-ext">
+                    <span class="material-icons">arrow_forward</span>
+                </div>
+                <input id="semester" placeholder="Semester" type="text" name="semester" required class="validate" autocomplete="off">
+            </div>
+
+            <div class="remember-me">
+                <input type="checkbox">
+                <span>I accept Terms of Service</span>
+            </div>
+
+            <input type="submit" value="Register" />
+        </form>
+
+        <div class="privacy">
+            <a href="#">Privacy Policy</a>
+        </div>
+
+        <div class="register">
+           Already have an account?
+            <a href="/login"><button id="register-link">Log In here</button></a>
+        </div>
+    </div>
+</body>
+
+</html>

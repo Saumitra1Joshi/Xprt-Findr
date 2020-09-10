@@ -1,0 +1,53 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="css" href="css/loginandregister.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="brand">
+        <a href="/" class="brand">Xprt Findr</a>
+    </div>
+    <div id="contain-login">
+      <div id="heading">
+          <i class="material-icons lock">lock</i> Login
+      </div>
+
+      <form action="/auth" method="POST">
+          <div class="input">
+              <div class="input-ext">
+                  <span class="material-icons">account_circle</span>
+              </div>
+              <input id="username" placeholder="Username" name="username" type="text" required class="validate">
+          </div>
+
+          <div class="input">
+              <div class="input-ext">
+                  <i class="material-icons">vpn_key</i>
+              </div>
+              <input id="password" placeholder="Password" name="password" type="password" required class="validate" >
+          </div>
+
+          <div class="remember-me">
+              <input type="checkbox">
+              <span style="color: white;">Remember Me</span>
+          </div>
+
+          <input type="submit" value="Log In" />
+      </form>
+
+      <div class="forgot-password">
+          <a href="#">Forgot Password?</a>
+      </div>
+
+      <div class="register">
+          First time?
+          <a href="/register"><button id="register-link">Register here</button></a>
+      </div>
+  </div>
+  
+</body>
+</html>

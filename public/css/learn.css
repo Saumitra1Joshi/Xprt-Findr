@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+
+.list-group-item{
+    background-color: rgb(37, 36, 36);
+    color: white;
+}
+
+.list-group .mb-1{
+    width: 100%;
+}
+
+.list-group .Post{
+    margin-left: 300px;
+    width: 100px;
+    background-color:gray;
+    color: rgb(90, 248, 90);
+}
+
+body .navbar-brand{
+    color: cyan;
+}
